@@ -1,0 +1,50 @@
+body {
+
+    background-image: url("snare-drum-wallpaper-1024x682.jpg");
+    background-size: cover;
+}
+
+.keys{
+
+    position: absolute;
+    bottom: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex : 1;
+    flex-wrap: wrap;
+    
+}
+.key{
+
+    border: .1rem solid beige;    
+    border-radius: .5rem;
+    color: white;
+    margin: 1rem;
+    font-size: 1em;
+    padding: .5rem .5rem;
+    width: 10rem;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    transition: 0.09s ease;
+}
+
+.playing {
+    
+    transform: scale(1.2);
+    border-color: rgb(243, 243, 232);
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+    font-size: 2em;
+    display: block;
+}
+
+.sound {
+
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    color: #ffc600
+}
