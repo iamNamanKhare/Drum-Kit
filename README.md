@@ -1,2 +1,2 @@
 # Drum-Kit
-This Repository includes the Drum Kit project from Course - JavaScript30 by WesBos.
+This Repository includes the Drum Kit project built Simply from HTML, CSS and Vanilla JS.
